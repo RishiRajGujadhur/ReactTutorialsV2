@@ -1,7 +1,12 @@
+import { useState } from "react";
+
 export function About() {
+
+  let [about, setAbout] = useState('');
+  setAbout('Test');
   return (
     <>
-      <p>About us section</p>
+      <p>{about}</p>
     </>
   );
 }
