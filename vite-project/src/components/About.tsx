@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export function About() {
 
-  let [about, setAbout] = useState('Loading');
+  let [about, setAbout] = useState('Loading...');
   setAbout('Test');
   return (
     <>
