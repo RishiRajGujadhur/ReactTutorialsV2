@@ -1,1 +1,6 @@
 React Basics - Commit by Commit
+
+Components: https://github.com/RishiRajGujadhur/ReactTutorialsV2/commit/b4dea2fb8077ecacb145fa31407db43aa6de4bce
+UseState: https://github.com/RishiRajGujadhur/ReactTutorialsV2/commit/115d897d210b97069663b87fd61d010d6d95ad3c#diff-7a0cc27ba07f0239ca6c211e80aa867fa04c28a96a95e95a1d7bd189d32c9e63R6
+UseEffects: https://github.com/RishiRajGujadhur/ReactTutorialsV2/commit/ca30506e53cfb1c03df5de3df6d5437dab5e0f65
+UseEffect in TypeScript: https://github.com/RishiRajGujadhur/ReactTutorialsV2/commit/d04ff368115558654ba92b757e84d5c7b3c099e5
