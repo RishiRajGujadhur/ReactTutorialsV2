@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useState,  useEffect } from "react";
 
 export function About() {
-
   let [about, setAbout] = useState('Loading...');
-  setAbout('Test');
+  
+  useEffect(() => {
+    setAbout('Hello World!');
+  }, []);
+ 
   return (
     <>
       <p>{about}</p>
