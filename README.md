@@ -7,3 +7,5 @@ UseState: https://github.com/RishiRajGujadhur/ReactTutorialsV2/commit/115d897d21
 UseEffects: https://github.com/RishiRajGujadhur/ReactTutorialsV2/commit/ca30506e53cfb1c03df5de3df6d5437dab5e0f65
 
 UseState in TypeScript: https://github.com/RishiRajGujadhur/ReactTutorialsV2/commit/d04ff368115558654ba92b757e84d5c7b3c099e5
+
+Promise: https://github.com/RishiRajGujadhur/ReactTutorialsV2/commit/532117919fdb94ef9532382dde238a952c07b28a
