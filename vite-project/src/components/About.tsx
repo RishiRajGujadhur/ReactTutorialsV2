@@ -1,19 +1,28 @@
-import { useState,  useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export function About() {
-  let [about, setAbout] = useState<string>('Loading...');
+  const [about, setAbout] = useState<string>('Loading...');
   const [color, setColor] = useState<string>();
 
-function handleColorChange(){
-  const nextColor = color === 'red' ? 'green' : 'red';
-  setColor(nextColor);
-}
-
+  function handleColorChange() {
+    const nextColor = color === 'red' ? 'green' : 'red';
+    setColor(nextColor);
+  }
 
   useEffect(() => { 
-    setAbout('Hello World!');  
+    // Simulate fetching data with a Promise
+    const fetchAbout = new Promise<string>((resolve) => {
+      setTimeout(() => {
+        resolve('Hello World!');
+      }, 2000); // 2-second delay
+    });
+
+    // Use the Promise to update `about` once resolved
+    fetchAbout.then((data) => {
+      setAbout(data);
+    });
   }, []);
- 
+
   return (
     <>
       <p>{about}</p>
